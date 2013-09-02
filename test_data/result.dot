@@ -1,0 +1,10 @@
+digraph graphname{
+	G5->G7
+	G1->G8
+	G6->G7
+	G7->G6
+	G2->G1
+	G1->G2
+	G7->G4
+	G7->G5
+}

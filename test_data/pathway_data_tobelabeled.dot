@@ -1,0 +1,82 @@
+strict digraph  {
+	node [color=green,
+		style=filled
+	];
+	edge [arrowhead=normal,
+		color=orangered2,
+		len="0.5"
+	];
+	32 -> 34 [penwidth=3.8,color=red];
+	32 -> 76;
+	34 -> 57;
+	34 -> 32 [penwidth=4.0,color=red];
+	34 -> 58;
+	34 -> 56;
+	34 -> 54;
+	34 -> 48;
+	34 -> 45;
+	34 -> 61;
+	34 -> 76 [penwidth=2.0,color=red];
+	34 -> 35 [penwidth=2.0,color=red];
+	35 -> 34;
+	35 -> 61;
+	54 -> 34;
+	76 -> 77 [penwidth=2.6,color=red];
+	76 -> 58;
+	76 -> 34 [penwidth=4.6,color=red];
+	58 -> 34;
+	45 -> 34;
+	80 -> 82;
+	80 -> 84;
+	84 -> 80;
+	77 -> 76 [penwidth=2.6,color=red];
+	59 -> 57;
+	57 -> 34;
+	61 -> 70;
+	61 -> 34;
+	61 -> 35;
+	70 -> 61;
+	48 -> 34;
+	48 -> 76;
+	14 -> 22;
+	14 -> 19;
+	14 -> 2;
+	19 -> 14;
+	22 -> 14;
+	2 -> 14;
+	16 -> 64;
+	64 -> 75;
+	64 -> 62;
+	64 -> 13;
+	75 -> 16;
+	75 -> 64;
+	13 -> 64;
+	62 -> 75;
+	32 [color = deepskyblue, label = "32I"]
+	34 [color = deepskyblue, label = "34L"]
+	35 [color = deepskyblue, label = "35M"]
+	54 [color = green, label = "12V"]
+	76 [color = green, label = "34L"]
+	58 [color = green, label = "16K"]
+	56 [color = green, label = "14H"]
+	45 [color = green, label = "3E"]
+	80 [color = green, label = "38G"]
+	84 [color = green, label = "42A"]
+	82 [color = green, label = "40V"]
+	77 [color = green, label = "35M"]
+	59 [color = green, label = "17L"]
+	57 [color = green, label = "15Q"]
+	61 [color = green, label = "19F"]
+	70 [color = green, label = "28K"]
+	48 [color = green, label = "6H"]
+	14 [color = deepskyblue, label = "14H"]
+	19 [color = deepskyblue, label = "19F"]
+	22 [color = deepskyblue, label = "22E"]
+	2  [color = deepskyblue, label = "2A"]
+	16 [color = deepskyblue, label = "16K"]
+	64 [color = green, label = "22E"]
+	75 [color = green, label = "33G"]
+	13 [color = deepskyblue, label = "13H"]
+	62 [color = green, label = "20F"]
+
+}
